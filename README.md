@@ -5,11 +5,11 @@ Práce se zabývá vytvořením webových stránek ...
 Nezapomenu upravit odkazy a "aktivovat" GitHub Pages... 
 [Webová stránka s ukázkovou implemetací](https://pslib-cz.github.io/<SEM_VKLADAM_NAZEV_PROJEKTU>/)
 
-[Návrh webové stránky ve Figmě](https://www.figma.com/)
+[Figma návrh]( https://www.figma.com/file/SYFnR8CGBBoALGMJkFDbWO/Figma?type=design&t=wLu2oKIFwbq3y6Wv-6 )
 
 ## ToDo
 - [x] Vytvořit repozitář projektu
-- [ ] Vytvořit Figma projekt
+- [x] Vytvořit Figma projekt
 - [ ] Aktivovat GitHub Pages
 - [ ] Upravit README.md (aktualizace odkazů na Figmu a Web)
 - [ ] Hamburger menu (s JS)
