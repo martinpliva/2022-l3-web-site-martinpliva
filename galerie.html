@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./lightgallery-bundle.min.css">
+    <title>Martin Plíva Galerie</title>
+</head>
+<body>
+    <h1 class="stred">Galerie</h1>
+    <section class="gal lightgallery">
+        <figure><a class="gallery_item" href="/foto/1.jpg"><img class="vyska" src="/foto/1.jpg"></a></figure>
+        <figure><a class="gallery_item" href="/foto/2.jpg"><img class="sirka" src="/foto/2.jpg"></a></figure>
+        <figure><a class="gallery_item" href="/foto/3.jpg"><img class="sirka" src="/foto/3.jpg"></a></figure>
+        <figure><a class="gallery_item" href="/foto/4.jpg"><img class="vyska" src="/foto/4.jpg"></a></figure>
+        <figure><a class="gallery_item" href="/foto/5.jpg"> <img class="vyska" src="/foto/5.jpg"></a></figure>
+        <figure><a class="gallery_item" href="/foto/IMG_3378.jpg"><img class="vyska" src="/foto/IMG_3378.jpg"></a></figure>
+        <figure><a class="gallery_item" href="/foto/IMG_3468.jpg"><img class="vyska" src="/foto/IMG_3468.jpg"></a></figure>
+        <figure><a class="gallery_item" href="/foto/IMG_3496.jpg"><img class="vyska" src="/foto/IMG_3496.jpg"></a></figure>
+        <figure><a class="gallery_item" href="/foto/IMG_5317.jpg"><img class="vyska" src="/foto/IMG_5317.jpg"></a></figure>
+        <figure><a class="gallery_item" href="/foto/IMG_5328.jpg"><img class="vyska" src="/foto/IMG_5328.jpg"></a></figure>
+        <figure><a class="gallery_item" href="/foto/IMG_5355.jpg"><img class="vyska" src="/foto/IMG_5355.jpg"></a></figure>
+        <figure><a class="gallery_item" href="/foto/IMG_5385.jpg"><img class="vyska" src="/foto/IMG_5385.jpg"></a></figure>
+        <figure><a class="gallery_item" href="/foto/IMG_5388.jpg"><img class="vyska" src="/foto/IMG_5388.jpg"></a></figure>
+        <figure><a class="gallery_item" href="/foto/IMG_5405.jpg"><img class="vyska" src="/foto/IMG_5405.jpg"></a></figure>
+        <figure><a class="gallery_item" href="/foto/IMG_5443.jpg"><img class="vyska" src="/foto/IMG_5443.jpg"></a></figure>
+        <figure><a class="gallery_item" href="/foto/IMG_5468.jpg"><img class="vyska" src="/foto/IMG_5468.jpg"></a></figure>
+    </section>
+    <script src="./lightgallery.min.js"></script>
+    <script type="text/javascript">
+        lightGallery(document.getElementById('lightgallery'), {
+            plugins: [lgZoom, lgThumbnail],
+            licenseKey: 'your_license_key',
+            speed: 500,
+            selector: ".lightgallery figure"
+        });
+    </script>
+</body>
+</html>
